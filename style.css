@@ -1,0 +1,31 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    
+}
+.steelblue-color{
+    color: steelblue;
+}
+.first-button{
+    text-decoration: none;
+    background-image: linear-gradient(skyblue , blue);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-weight: 700px;
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.flexible-container{
+        display: flex;
+        margin-bottom: 150px;
+        
+    }

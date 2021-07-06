@@ -13,6 +13,42 @@ h2{
 h4{
     font-size: 30px;
 }
+/* Start of menubar section */
+.menubar{
+    background-color: black;
+    padding: 1% 7%;
+    text-align: center;
+}
+.menubar a{
+    color: steelblue;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.menubar-container{
+    display: inline;
+    position: relative;
+}
+.menubar-content{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    background-color: lightskyblue;
+    text-align: left;
+    min-width: 100px;
+    display: none;
+}
+.menubar-content a{
+    display: block;
+}
+.menubar-content a:hover{
+    background-color: blue;
+}
+.menubar-container:hover .menubar-content{
+    display: block;
+}
+/* End of menubar section */
 .steelblue-color{
     color: steelblue;
 }
